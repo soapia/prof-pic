@@ -1,0 +1,54 @@
+body {
+    background: lightblue;
+    margin: 0;
+    font-family: monospace;
+}
+
+div {
+    background: plum;
+}
+
+.header {
+    width: 100%;
+    background: #C5C5C5;
+    min-height: 200px;
+    border-bottom: solid 5px #FF5666;
+}
+
+.body-background {
+    width: 100%;
+    background: lightblue;
+    min-height: 100vh
+}
+
+.profile {
+    width: 50%;
+    padding-left: 2% ;
+    padding-right: 2% ;
+    background: white;
+    min-height: 300px;
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    box-shadow:;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 50%;
+    width: 35%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+ .profile h1 {
+     text-align: center;
+ }
+/*vh = view height*/
+/*
+margin, border, and padding discussion
+margin: btw any two html elements,,,, pages come with lil margin
+border: border around element
+padding: space btw content and border
+*/
